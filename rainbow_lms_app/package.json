@@ -1,0 +1,17 @@
+{
+  "name": "rainbow-restoration-lms",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multi-user learning management system for Rainbow Restoration of Greater Virginia",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "test": "node --no-warnings --test tests/*.test.js",
+    "backup": "node --no-warnings scripts/backup.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "UNLICENSED"
+}
